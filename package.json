@@ -1,0 +1,38 @@
+{
+  "name": "synchronize-bdd",
+  "version": "0.1.0",
+  "description": "A small synchronize.js wrapper around the BDD block functions from Mocha and Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "ENV=mocha mocha && ENV=jasmine jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mixmaxhq/synchronize-bdd.git"
+  },
+  "keywords": [
+    "fiber",
+    "jasmine",
+    "mocha",
+    "synchronize",
+    "synchronize.js",
+    "test"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Eli Skeggs <me@eliskeggs.com> (https://eliskeggs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmaxhq/synchronize-bdd/issues"
+  },
+  "homepage": "https://github.com/mixmaxhq/synchronize-bdd#readme",
+  "dependencies": {
+    "synchronize": "^0.9.15"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jasmine": "^2.4.1",
+    "mocha": "^2.5.3"
+  }
+}
