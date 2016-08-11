@@ -3,6 +3,8 @@ synchronize-bdd
 
 A small [synchronize.js](http://alexeypetrushin.github.io/synchronize/docs/index.html) wrapper around the BDD block functions from Mocha and Jasmine.
 
+[![Build Status](https://travis-ci.org/mixmaxhq/synchronize-bdd.svg?branch=master)](https://travis-ci.org/mixmaxhq/synchronize-bdd)
+
 ```js
 const assert = require('assert');
 const sync = require('synchronize');
