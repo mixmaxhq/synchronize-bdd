@@ -132,6 +132,13 @@ describe('module', function() {
 });
 ```
 
+Changelog
+-------
+
+* 0.1.1 Removed use of deprecated `root` that throws a warning in Node 6.
+
+* 0.1.0 Initial release
+
 License
 -------
 

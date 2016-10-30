@@ -2,7 +2,6 @@ var sync = require('synchronize');
 
 var fakeContext = {};
 var context =
-  typeof root !== 'undefined' ? root :
   typeof global !== 'undefined' ? global :
   typeof window !== 'undefined' ? window : fakeContext;
 
