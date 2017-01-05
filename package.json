@@ -1,6 +1,6 @@
 {
   "name": "synchronize-bdd",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A small synchronize.js wrapper around the BDD block functions from Mocha and Jasmine",
   "main": "index.js",
   "scripts": {
