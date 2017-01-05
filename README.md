@@ -135,6 +135,8 @@ describe('module', function() {
 Changelog
 -------
 
+* 0.2.0 Wrapped Jasmine's `fit`.
+
 * 0.1.1 Removed use of deprecated `root` that throws a warning in Node 6.
 
 * 0.1.0 Initial release

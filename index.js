@@ -14,7 +14,8 @@ var blockFunctionNames = [
   'before',
   'beforeAll',
   'beforeEach',
-  'it'
+  'it',
+  'fit'
 ];
 
 /**

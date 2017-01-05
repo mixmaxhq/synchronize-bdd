@@ -86,9 +86,7 @@ describe('synchronize-bdd', function() {
     it('should wrap all visible', function() {
       var names = Object.keys(syncIt.wrap());
 
-      expect(names).to.have.members(isMocha
-        ? ['before', 'beforeEach', 'after', 'afterEach', 'it']
-        : ['beforeAll', 'beforeEach', 'afterAll', 'afterEach', 'it']);
+      expect(names).to.have.members(isMocha ? ['before', 'beforeEach', 'after', 'afterEach', 'it'] : ['beforeAll', 'beforeEach', 'afterAll', 'afterEach', 'it', 'fit']);
     });
 
     var ranB = false;
