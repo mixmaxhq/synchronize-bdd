@@ -40,7 +40,7 @@ Install
 -------
 
 ```sh
-$ yarn add synchronize-bdd
+$ npm install synchronize-bdd
 ```
 or
 ```sh
